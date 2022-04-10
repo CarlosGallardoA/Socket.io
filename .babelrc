@@ -2,6 +2,9 @@
     "presets": [
         "@babel/env"
     ],
+    "ignore": [
+        "src/public/**/*.js"
+    ],
     "plugins": [
         "@babel/transform-runtime"
     ]
